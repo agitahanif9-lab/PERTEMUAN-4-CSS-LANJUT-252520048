@@ -1,0 +1,84 @@
+/* Selector Elemen: Pengaturan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Format warna backgraund luar */
+    line-height: 1.6;          /* Mengatur jarak antarbaris */
+}
+
+/* Selector ID: Header dengan garis pembatas di bawah */
+#header {
+    text-align: center;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #111111; 
+}
+
+/* Selector Grup: Mengatur beberapa selector sekaligus */
+h1, h3 {
+    color: #0D47A1; /* Warna pada Nama, tentang saya, keahlian */
+}
+
+/* Selector Elemen */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Selector Turunan (Descendant): Paragraf di dalam div .konten */
+.konten p {
+    font-size: 14px;
+    color: #101011;
+}
+
+/* Selector Class: Box Model untuk container utama */
+.container {
+    width: 480px;               /* Lebar tetap sesuai ketentuan */
+    margin: 40px auto;          /* Menengahkan kotak secara horizontal */
+    padding: 32px;              /* Ruang di dalam kotak */
+    background-color: #E3F2FD;  /* Warna latar putih */
+    border: 1px solid #cbd5e1;  /* Garis tepi */
+    border-radius: 12px;        /* Membulatkan sudut */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Format warna RGBA (transparansi) */
+}
+
+/* Selector Class: Jurusan */
+.jurusan {
+    text-align: center;          /* Perataan teks */
+    font-style: italic;
+    text-transform: uppercase;   /* Mengubah huruf menjadi kapital */
+    letter-spacing: 1px;
+    color: #222830;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Selector Class: Item keahlian dengan display: inline-block */
+.keahlian-item {
+    display: inline-block;      
+    background-color: #90CAF9;  
+    color: #000000;
+    padding: 6px 14px;          
+    margin: 4px 6px 4px 0;      
+    border-radius: 16px;        
+    font-size: 13px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Selector Class: Tombol dengan display: inline-block */
+.tombol {
+    display: inline-block;      /* Perilaku kotak sebaris */
+    margin-top: 24px;
+    padding: 10px 20px;
+    background-color: #0D47A1;  
+    color: white;               /* Format warna Nama */
+    text-decoration: none;      /* Menghilangkan garis bawah tautan */
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
